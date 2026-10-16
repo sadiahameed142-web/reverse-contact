@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # n8n-nodes-reverse-contact
 
 This is an n8n community node. It lets you use _app/service name_ in your n8n workflows.
@@ -44,3 +45,7 @@ _By the time users are looking for community nodes, they probably already know n
 ## Version history
 
 _This is another optional section. If your node has multiple versions, include a short description of available versions and what changed, as well as any compatibility impact._
+=======
+# reverse-contact
+reverse contact n8n API's integration
+>>>>>>> origin/main

@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-reverse-contact",
   "version": "0.1.0",
-  "description": "",
+  "description": "n8n community node for integrating with the Reverse Contact API",
   "license": "MIT",
   "homepage": "",
   "keywords": [
