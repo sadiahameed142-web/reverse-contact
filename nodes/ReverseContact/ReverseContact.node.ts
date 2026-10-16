@@ -1,10 +1,4 @@
-
-import {
-	NodeConnectionTypes,
-	type INodeType,
-	type INodeTypeDescription,
-} from 'n8n-workflow';
-
+import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from 'n8n-workflow';
 import { userDescription } from './resources/user';
 import { companyDescription } from './resources/company';
 import { usageDescription } from './resources/usage';
@@ -18,13 +12,10 @@ export class ReverseContact implements INodeType {
 		version: 1,
 		subtitle: '={{$parameter["operation"]}}',
 		description: 'Interact with the Reverse Contact API',
-
 		defaults: {
 			name: 'Reverse Contact',
 		},
-
 		usableAsTool: true,
-
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
 

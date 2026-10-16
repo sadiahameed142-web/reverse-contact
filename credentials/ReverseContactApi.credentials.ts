@@ -1,4 +1,3 @@
-
 import type {
 	IAuthenticateGeneric,
 	ICredentialTestRequest,
@@ -11,8 +10,7 @@ export class ReverseContactApi implements ICredentialType {
 
 	displayName = 'Reverse Contact API';
 
-	documentationUrl =
-		'https://github.com/sadiahameed142-web/n8n-nodes-reverse-contact';
+	documentationUrl = 'https://github.com/org/reverse-contact';
 
 	properties: INodeProperties[] = [
 		{
