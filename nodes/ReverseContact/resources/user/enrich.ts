@@ -7,6 +7,7 @@ export const userEnrichDescription: INodeProperties[] = [
 		type: 'string',
 		default: '',
 		required: true,
+		placeholder: 'name@email.com',
 		description: 'Professional email address',
 		displayOptions: {
 			show: {
