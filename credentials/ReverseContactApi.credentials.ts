@@ -1,18 +1,19 @@
+
 import type {
 	IAuthenticateGeneric,
 	ICredentialTestRequest,
 	ICredentialType,
 	INodeProperties,
-	Icon,
 } from 'n8n-workflow';
+
 export class ReverseContactApi implements ICredentialType {
 	name = 'reverseContactApi';
 
 	displayName = 'Reverse Contact API';
-	icon: Icon = 'file:../nodes/ReverseContact/reversecontact.png';
 
+	icon = 'file:../nodes/ReverseContact/reverse-contact-logo.svg' as const;
 
-	documentationUrl = 'https://github.com/org/reverse-contact';
+	documentationUrl = 'https://github.com/sadiahameed142-web/reverse-contact';
 
 	properties: INodeProperties[] = [
 		{
