@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-reverse-contact",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "n8n community node for integrating with the Reverse Contact API",
   "license": "MIT",
   "homepage": "https://github.com/sadiahameed142-web/reverse-contact",
