@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-reverse-contact",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "n8n community node for integrating with the Reverse Contact API",
   "license": "MIT",
   "homepage": "https://github.com/sadiahameed142-web/reverse-contact",
@@ -8,8 +8,8 @@
     "n8n-community-node-package"
   ],
   "author": {
-    "name": "abdullah",
-    "email": "abdullah@pukatdigital.com"
+    "name": "Sadia Hameed",
+    "email": "sadiahameed142@gmail.com"
   },
   "repository": {
     "type": "git",
@@ -46,5 +46,8 @@
   },
   "peerDependencies": {
     "n8n-workflow": "*"
+  },
+  "dependencies": {
+    "n8n-nodes-reverse-contact": "^0.1.5"
   }
 }
